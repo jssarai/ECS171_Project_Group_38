@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group 38 Project</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class="model-header">
+        <p> Model 1 </p>
+    </div>
+    <form action="/model1" method="POST">
+        <label for="county" class="body"> Choose a County:</label>
+        <select id="county" name="county">
+            <option value="Tuolumne">Tuolumne</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Riverside">Riverside</option>
+            <option value="Placer">Placer</option>
+            <option value="Ventura">Ventura</option>
+            <option value="Fresno">Fresno</option>
+            <option value="Siskiyou">Siskiyou</option>
+            <option value="Humboldt">Humboldt</option>
+            <option value="Tehama">Tehama</option>
+            <option value="Shasta">Shasta</option>
+            <option value="San Diego">San Diego</option>
+            <option value="Kern">Kern</option>
+            <option value="Sonoma">Sonoma</option>
+            <option value="Contra Costa">Contra Costa</option>
+            <option value="Butte">Butte</option>
+            <option value="Tulare">Tulare</option>
+            <option value="Santa Barbara">Santa Barbara</option>
+            <option value="Mariposa">Mariposa</option>
+            <option value="Monterey">Monterey</option>
+            <option value="El Dorado">El Dorado</option>
+            <option value="San Bernardino">San Bernardino</option>
+            <option value="Plumas">Plumas</option>
+            <option value="Modoc">Modoc</option>
+            <option value="San Luis Obispo">San Luis Obispo</option>
+            <option value="Madera">Madera</option>
+            <option value="Inyo">Inyo</option>
+            <option value="Napa">Napa</option>
+            <option value="San Benito">San Benito</option>
+            <option value="San Joaquin">San Joaquin</option>
+            <option value="Lake">Lake</option>
+            <option value="Alameda">Alameda</option>
+            <option value="Glenn">Glenn</option>
+            <option value="Yolo">Yolo</option>
+            <option value="Sacramento">Sacramento</option>
+            <option value="Stanislaus">Stanislaus</option>
+            <option value="Solano">Solano</option>
+            <option value="Merced">Merced</option>
+            <option value="Mendocino">Mendocino</option>
+            <option value="Lassen">Lassen</option>
+            <option value="Amador">Amador</option>
+            <option value="Yuba">Yuba</option>
+            <option value="Nevada">Nevada</option>
+            <option value="Santa Clara">Santa Clara</option>
+            <option value="Calaveras">Calaveras</option>
+            <option value="San Mateo">San Mateo</option>
+            <option value="Orange">Orange</option>
+            <option value="Colusa">Colusa</option>
+            <option value="Trinity">Trinity</option>
+            <option value="Del Norte">Del Norte</option>
+            <option value="Mono">Mono</option>
+            <option value="Alpine">Alpine</option>
+            <option value="Sutter">Sutter</option>
+            <option value="Kings">Kings</option>
+            <option value="Sierra">Sierra</option>
+            <option value="Santa Cruz">Santa Cruz</option>
+            <option value="Marin">Marin</option>
+            <option value="Mexico">Mexico</option>
+            <option value="State of Oregon">State of Oregon</option>
+            <option value="State of Nevada">State of Nevada</option>
+        </select>
+        
+
+        <label for="crewsInvolved" class="body">Enter the number of Crews Involved:</label>
+        <input type="number" id="crewsInvolved" name="crewsInvolved" min="0">
+
+        <label for="PersonnelInvolved" class="body">Enter the number of Personnel Involved:</label>
+        <input type="number" id="PersonnelInvolved" name="PersonnelInvolved" min="0">
+
+        <input type="submit" value="Submit">
+    </form>
+    <div class="model-header">
+        <p> Model 2 </p>
+    </div>
+    <form action="/model2" method="POST"> 
+        <label for="months" class="body">Select a Month:</label>
+        <select id="months" name="months">
+            <option value=1>January</option>
+            <option value=2>February</option>
+            <option value=3>March</option>
+            <option value=4>April</option>
+            <option value=5>May</option>
+            <option value=6>June</option>
+            <option value=7>July</option>
+            <option value=8>August</option>
+            <option value=9>September</option>
+            <option value=10>October</option>
+            <option value=11>November</option>
+            <option value=12>December</option>
+        </select>
+
+        <label for="firesLastMonth" class="body">Enter the number of fires in the past month:</label>
+        <input type="number" id="firesLastMonth" name="firesLastMonth" min="0">
+
+        <label for="lastTemperature" class="body">Enter the Temperature in farenheight:</label>
+        <input type="number" step="0.1" id="lastTemperature" name="lastTemperature" min="-459">
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

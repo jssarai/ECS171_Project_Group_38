@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white; /* Text color to stand out on the black background */
+}
+
+.content {
+    /* Define styles for your content */
+    padding: 20px;
+}
+
+.model-header {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white
+}
+
+.model-output {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white
+}
+
+.body {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white
+}
